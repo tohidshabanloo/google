@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 15px;
+}
+.btn1 {
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+.img {
+  height: 12px;
+  margin-right: 10px;
+}

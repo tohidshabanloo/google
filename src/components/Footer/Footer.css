@@ -1,0 +1,20 @@
+.main {
+  margin-top: 250px;
+}
+.f1 {
+  border: none;
+  background-color: rgba(238, 238, 238, 0.24);
+  color: white;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+.f2 {
+  border: none;
+  background-color: rgba(238, 238, 238, 0.24);
+  color: white;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+.s2 {
+  margin-left: 40px;
+}

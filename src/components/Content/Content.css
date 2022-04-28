@@ -1,0 +1,19 @@
+.container {
+  color: white;
+  font-size: 50px;
+}
+.input {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  width: 450px;
+  height: 30px;
+}
+.btn2 {
+  background-color: rgba(169, 169, 169, 0.166);
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
