@@ -1,5 +1,6 @@
 import React from "react";
 import "./Content.css";
+import Button from "../Button/Button";
 
 const Content = () => {
   return (
@@ -7,8 +8,8 @@ const Content = () => {
       <h3>Google</h3>
       <input className="input"></input>
       <div>
-        <button className="btn2">Google Search</button>
-        <button className="btn2">I'm Feeling Lucky</button>
+        <Button text="Google Search" color="red" />
+        <Button text="I'm Feeling Lucky" color="yellow" />
       </div>
     </div>
   );

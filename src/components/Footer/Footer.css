@@ -1,20 +1,33 @@
 .main {
-  margin-top: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #171717;
 }
 .f1 {
   border: none;
-  background-color: rgba(238, 238, 238, 0.24);
-  color: white;
+  background-color: transparent;
+  color: #cbcbcb;
   margin-left: 5px;
   border-radius: 2px;
+  padding: 15px;
+  cursor: pointer;
+}
+.f1:hover {
+  color: #ececec;
 }
 .f2 {
   border: none;
-  background-color: rgba(238, 238, 238, 0.24);
-  color: white;
+  background-color: transparent;
+  color: #cbcbcb;
   margin-left: 5px;
   border-radius: 2px;
+  padding: 15px;
+  cursor: pointer;
+}
+.f2:hover {
+  color: #ececec;
 }
 .s2 {
-  margin-left: 40px;
+  margin-left: 50px;
 }

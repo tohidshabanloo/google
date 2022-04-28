@@ -7,8 +7,10 @@ const Header = () => {
       <span>
         <button className="btn1">Gmail</button>
         <button className="btn1">Image</button>
-        <img className="img" src="/menu.png" />
+        
       </span>
+      <img className="menu" src="/menu.png" />
+      <img className="avatar" src="/avatar.png" />
     </div>
   );
 };
