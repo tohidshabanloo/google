@@ -8,8 +8,12 @@ const Content = () => {
       <h3>Google</h3>
       <input className="input"></input>
       <div>
-        <Button text="Google Search" color="red" />
-        <Button text="I'm Feeling Lucky" color="yellow" />
+        <Button color="white" className="bgRed">
+          Google Search
+        </Button>
+        <Button color="white" className="bgRed">
+          I'm Feeling Lucky
+        </Button>
       </div>
     </div>
   );

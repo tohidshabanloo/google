@@ -1,13 +1,15 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({ text, color }) => {
+const Button = (props) => {
+  console.log(props);
   return (
-    <span>
-      <button style={{ color: { color } }} className="btn">
-        {text}
-      </button>
-    </span>
+    <button
+      style={{ color: props.color, ...props.style }}
+      className={props.className}
+    >
+      {props.children}
+    </button>
   );
 };
 
