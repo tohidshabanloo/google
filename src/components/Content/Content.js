@@ -16,11 +16,11 @@ const Content = () => {
       <h3>Google</h3>
 
       <input className="input"></input>
-      <div>
+      {/* <div>
         <button onClick={addNew}>ADD</button>
         <div>{val}</div>
         <button onClick={remove}>Delete</button>
-      </div>
+      </div> */}
       <div>
         {btn.map((el) => {
           return (
